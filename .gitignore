@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.build/
+Aplicativo/
+.build-site-packages/
+.tmpbuild/
+.venv-build/
+*.spec
+.venv/
+venv/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Dados coletados e configuração pessoal (não versionar)
+data/
+filtros.json
+debug_pagina.html
+.env
+.env.*
+!.env.example
+
+# Editores / sistema
+.idea/
+.vscode/
+.DS_Store
+

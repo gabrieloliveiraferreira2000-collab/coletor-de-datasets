@@ -1,0 +1,32 @@
+name: Relatar um problema
+description: Algo não funcionou como esperado.
+title: "[Problema]: "
+labels: [bug]
+body:
+  - type: textarea
+    id: resumo
+    attributes:
+      label: O que aconteceu?
+      description: Conte o que você tentou e o resultado que apareceu.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduzir
+    attributes:
+      label: Como reproduzir?
+      description: Liste os passos para encontrar o mesmo problema.
+    validations:
+      required: true
+  - type: input
+    id: ambiente
+    attributes:
+      label: Sistema e versão do Python
+      placeholder: Windows 11, Python 3.12
+    validations:
+      required: true
+  - type: textarea
+    id: privacidade
+    attributes:
+      label: Dados para diagnóstico
+      description: Remova URLs privadas, dados pessoais, cookies e credenciais antes de colar qualquer informação.
+

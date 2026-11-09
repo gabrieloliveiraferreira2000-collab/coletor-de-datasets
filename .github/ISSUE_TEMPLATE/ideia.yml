@@ -1,0 +1,27 @@
+name: Sugerir uma melhoria
+description: Proponha uma melhoria ou um novo conector.
+title: "[Ideia]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Que problema isso resolveria?
+      description: Descreva a necessidade, não apenas a solução.
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: O que você sugere?
+    validations:
+      required: true
+  - type: dropdown
+    id: contribuicao
+    attributes:
+      label: Você gostaria de trabalhar nessa ideia?
+      options:
+        - Sim
+        - Posso ajudar a testar
+        - Ainda não
+

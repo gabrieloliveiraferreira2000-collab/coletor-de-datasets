@@ -1,0 +1,12 @@
+{
+  "termos_busca": ["rtx 4060", "ryzen 5 5600"],
+  "preco_min": 0,
+  "preco_max": 5000,
+  "marcas": [],
+  "palavras_obrigatorias": [],
+  "palavras_proibidas": ["notebook", "pc gamer", "usado"],
+  "somente_em_estoque": true,
+  "max_paginas": 2,
+  "itens_por_pagina": 20
+}
+

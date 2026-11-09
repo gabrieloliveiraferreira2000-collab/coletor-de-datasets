@@ -1,0 +1,21 @@
+{
+  "nome": "Catálogo de exemplo",
+  "url_busca": "https://exemplo.com/busca?q={termo}&pagina={pagina}",
+  "seletor_item": ".produto",
+  "campos": {
+    "titulo": "h2 a",
+    "preco": ".preco",
+    "link": "a :: href"
+  },
+  "termos_busca": ["teclado", "mouse"],
+  "max_paginas": 2,
+  "regras": [
+    {
+      "campo": "titulo",
+      "operador": "não contém",
+      "valor": "recondicionado"
+    }
+  ],
+  "pausa_segundos": 2
+}
+
